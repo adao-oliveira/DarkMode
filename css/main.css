@@ -1,0 +1,57 @@
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: rgba(0,0,0,.1);
+  padding: 1rem;
+}
+
+header a {
+  font-weight: bold;
+  text-decoration: none;
+  color: purple;
+  isolation: isolate;
+  display: block;
+}
+
+.darkmode--activated main {
+  background: rgba(0,0,0,.1);
+}
+
+main {
+  padding: 5rem 0;
+  background: purple;
+  color: white;
+}
+
+main .container h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+main .container p {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+main .container a {
+  background: white;
+  padding: 1rem 2rem;
+  margin-top: .5rem;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  color: #0004ff;
+}
+
+section {
+  padding: 4rem 0;
+}
